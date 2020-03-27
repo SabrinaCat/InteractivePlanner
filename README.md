@@ -1,5 +1,5 @@
-# InteractivePlanner
-```I mean you could call it a work day scheduler but that doesn't sound as cool.
+## InteractivePlanner
+I mean you could call it a work day scheduler but that doesn't sound as cool.
 We have created an interactive planner that allows the user to add tasks within time blocks of their day. 
 The user will be able to select a time block (in increments of one hour) and input a task. 
 When they return to the page their tasks will still be saved.
