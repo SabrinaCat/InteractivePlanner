@@ -21,8 +21,9 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
+
 }
 
 .time-block{
@@ -30,11 +31,15 @@ textarea{
   border-radius: 15px;
 }
 
-.row {
+ section .row .col{
+  display: flex;  /* aligns all child elements (flex items) in a row */
   white-space: pre-wrap;
   height: 80px;
+  border-style: solid;
+  border-color: #000000;
   border-top: 1px solid white;;
 }
+
 
 .hour {
   background-color: #ffffff;
