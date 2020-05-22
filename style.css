@@ -26,19 +26,30 @@ textarea{
 
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
 
- section .row .col{
-  display: flex;  /* aligns all child elements (flex items) in a row */
+ .container {
+  /*display: flex;  /* aligns all child elements (flex items) in a row */
+  /*justify-content: space-around;*/
+  max-width: 100%;
   white-space: pre-wrap;
   height: 80px;
   border-style: solid;
   border-color: #000000;
   border-top: 1px solid white;;
 }
+
+.col {
+  border-style: solid;
+  border-color: gray;
+}
+/*header {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}*/
 
 
 .hour {
